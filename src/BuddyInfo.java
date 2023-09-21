@@ -28,10 +28,10 @@ public class BuddyInfo {
 
     public static void main(String[] args) {
         System.out.println("Address Book");
-        //AddressBook addressBook = new AddressBook();
+        AddressBook addressBook = new AddressBook();
         BuddyInfo buddy1 = new BuddyInfo("1234 street", "12345678", "Joe");
-        //addressBook.addBuddy(buddy1);
+        addressBook.addBuddy(buddy1);
         System.out.println("hello, the street is: " + buddy1.getAddress() + " the phone number is: " + buddy1.getPhoneNumber() + " the name is: " + buddy1.getName());
-        //addressBook.removeBuddy(buddy1);
+        addressBook.removeBuddy(buddy1);
     }
 }
