@@ -18,4 +18,16 @@ public class AddressBook {
     public void removeBuddy(BuddyInfo buddy) {
         buddyInfos.remove(buddy);
     }
+
+    public void method() {
+    }
+
+    public static void main(String[] args){
+        BuddyInfo buddyInfo = new BuddyInfo("123 road", "12345678", "Caleb");
+        AddressBook addressBook = new AddressBook();
+        addressBook.addBuddy(buddyInfo);
+        addressBook.removeBuddy(buddyInfo);
+    }
 }
+
+
